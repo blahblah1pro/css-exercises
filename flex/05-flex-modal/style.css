@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
   height: 100%;
 }
 
+.first{
+display:flex;
+justify-content:space-between;}
+.header{
+font-weight:bold;
+}
+.text{
+font-weight:normal;
+  width:400px;
+ padding:10px 0px 5px 0px;
+}
 body {
+ 
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
@@ -14,12 +27,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:10px;
 }
 
 .icon {
@@ -60,6 +73,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin:10px 0px 10px 50px;
 }
 
 button.cancel {
